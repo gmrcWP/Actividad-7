@@ -139,13 +139,15 @@ nav ul li a:hover {
 }
 
 .skills {
-  padding: 4rem 10%;
+  padding: 2rem 5%;
+  width: 80%;
+  margin: auto;
   text-align: center;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -192,9 +194,14 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 
+.projects {
+  width: 80%;
+  margin: auto;
+}
+
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -203,7 +210,7 @@ nav ul li a:hover {
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
