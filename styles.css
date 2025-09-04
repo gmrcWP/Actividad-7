@@ -11,6 +11,11 @@ body {
   line-height: 1.6;
 }
 
+header {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -53,7 +58,6 @@ nav ul li a:hover {
   height: 40rem;
   align-items: center;
   padding: 5% 20%;
-  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -116,7 +120,7 @@ nav ul li a:hover {
 }
 
 .skills {
-  padding: 2rem 5%;
+  padding: 2rem 1%;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -174,6 +178,7 @@ nav ul li a:hover {
 .projects {
   width: 80%;
   margin: auto;
+  padding: 2rem 1%;
 }
 
 .projects-grid {
@@ -206,4 +211,19 @@ footer .socials {
 footer .socials a {
   color: white;
   margin: 0 0.5;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    margin-bottom: 1.5rem;
+  }
+
+  header {
+    display: none;
+  }
 }
