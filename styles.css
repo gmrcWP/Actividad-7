@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f7f8ff;
+  background: #f9fafc;
   color: #333;
   line-height: 1.6;
 }
@@ -49,8 +49,10 @@ nav ul li a:hover {
 .hero {
   display: flex;
   justify-content: space-between;
+  background-color: #f3f2fa;
+  height: 40rem;
   align-items: center;
-  padding: 5% 10%;
+  padding: 5% 20%;
   flex-wrap: wrap;
 }
 
