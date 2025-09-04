@@ -11,8 +11,8 @@
 
 <body>
 
-  <header>
-    <nav>
+  <header aria-label="Nav bar">
+    <nav aria-label="Opciones Nav bar">
       <div class="logo">Blog personal</div>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -24,19 +24,19 @@
     </nav>
   </header>
 
-  <main>
+  <main aria-label="Seccion principal">
 
-    <section class="hero" id="home">
+    <section class="hero" id="home" aria-label="Seccion Hero">
       <div class="hero-text">
         <h1><span>Jorge Manuel Rocha Claure</span></h1>
       </div>
 
       <div class="hero-img">
-        <img src="Assets/profile.jpg" alt="Foto de perfil">
+        <img src="Assets/profile.jpg" alt="Foto de perfil" loading="lazy">
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="about" id="about" aria-label="Seccion Acerca de mi">
       <h2>Acerca de mi</h2>
       <p>
         Técnico Superior titulado del Instituto Técnico Superior Jesus María. Me gusta el desarrollo web pero también me
@@ -46,7 +46,7 @@
       </p>
     </section>
 
-    <section class="education" id="education">
+    <section class="education" id="education" aria-label="Seccion formacion">
       <h2>Formación</h2>
       <div class="edu-card">
         <h3>Técnico Superior en Sistemas Informáticos</h3>
@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <section class="skills" id="skills">
+    <section class="skills" id="skills" aria-label="Seccion habilidades">
       <h2>Habilidades</h2>
       <div class="skills-grid">
 
@@ -123,9 +123,9 @@
       </div>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" aria-label="Seccion proyectos">
       <h2>Proyectos</h2>
-      <div class="projects-grid">
+      <div class=" projects-grid">
         <div class="project-card">
           <h3>App de Contratos para Pastelería</h3>
           <p>Aplicación para registrar pedidos de pasteles, asignar roles (vendedor, pastelero, admin) y administrar
@@ -135,7 +135,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer aria-label="Seccion footer">
     <div class="socials">
       <a href="" target="_blank" aria-label="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
