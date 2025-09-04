@@ -191,3 +191,35 @@ nav ul li a:hover {
   height: 100%;
   border-radius: 4px;
 }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111828;
+  color: white;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  margin-top: 1rem;
+}
+
+footer .socials a {
+  color: white;
+  margin: 0 0.5;
+}
