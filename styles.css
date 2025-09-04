@@ -200,20 +200,29 @@ nav ul li a:hover {
 }
 
 footer {
-  text-align: center;
-  padding: 2rem;
   background: var(--color-oscuro);
   color: var(--color-blanco);
-  margin-top: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
 }
 
 footer .socials {
-  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 footer .socials a {
-  color: var(--color-blanco);
-  margin: 0 0.5;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+  color: #1da1f2;
 }
 
 @media (max-width: 768px) {
